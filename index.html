@@ -1,440 +1,624 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"
-      rel="iconstylesheet"
-    />
-    <link rel="icon" href="image/logo.png" />
-    <title>Instagram</title>
-  </head>
-  <body>
-    <div class="pageFlex">
-      <!-- Dashboard -->
-      <div class="dashboardContainer">
-        <div class="logoContainer">
-          <div class="logoBg">
-            <img src="image/logo.png" alt="Instagram_logo" class="logo" />
-          </div>
-          <div class="logoTopImg">
-            <img src="image/logoText.png" alt="Ig_logo" class="logoText" />
-          </div>
-        </div>
-
-        <div class="home">
-          <div class="homeContainer">
-            <img src="image/home.png" alt="home_icon" class="homeIcon" />
-            <p class="dashText">Home</p>
-          </div>
-        </div>
-
-        <div class="search">
-          <div class="searchContainer">
-            <img src="image/search.png" alt="search_icon" class="searchIcon" />
-            <p class="dashText">Search</p>
-          </div>
-        </div>
-
-        <div class="explore">
-          <div class="exploreContainer">
-            <img src="image/nav.png" alt="explore_icon" class="exploreIcon" />
-            <p class="dashText">Explore</p>
-          </div>
-        </div>
-
-        <div class="reels">
-          <div class="reelsContainer">
-            <img src="image/reel.png" alt="reels_icon" class="reelsIcon" />
-            <p class="dashText">Reels</p>
-          </div>
-        </div>
-
-        <div class="messages">
-          <div class="messagesContainer">
-            <img
-              src="image/message.png"
-              alt="messages_icon"
-              class="messagesIcon"
-            />
-            <p class="dashText">Messages</p>
-          </div>
-        </div>
-
-        <div class="notif">
-          <div class="notifContainer">
-            <img src="image/notif.png" alt="notif_icon" class="notifIcon" />
-            <p class="dashText">Notifications</p>
-          </div>
-        </div>
-
-        <div class="create">
-          <div class="createContainer">
-            <img src="image/plus.png" alt="create_icon" class="createIcon" />
-            <p class="dashText">Create</p>
-          </div>
-        </div>
-
-        <div class="dProfile">
-          <div class="dProfileContainer">
-            <img
-              src="image/profile.jpg"
-              alt="mainProfile_icon"
-              class="dProfilePic"
-            />
-            <p class="dashText">Profile</p>
-          </div>
-        </div>
-
-        <div class="spacer"></div>
-
-        <div class="threads">
-          <div class="threadsContainer">
-            <img src="image/at.png" alt="threads_icon" class="threadsIcon" />
-            <p class="dashText">Threads</p>
-          </div>
-        </div>
-
-        <div class="more">
-          <div class="moreContainer">
-            <div class="lines">
-              <div class="moreLine"></div>
-              <div class="moreLine"></div>
-              <div class="moreLine"></div>
-            </div>
-            <p class="dashText">More</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Main -->
-      <div class="mainFlexContainer">
-        <!-- mobile layout-->
-        <div class="mobileTop">
-          <img src="image/logoText.png" alt="Ig_logo" class="logoText" />
-          <div class="spacer"></div>
-          <form>
-            <div class="searchBarContainer">
-              <img src="image/search.png" alt="search" class="seaIcon" />
-              <input type="search" class="searchInput" placeholder="Search" />
-            </div>
-          </form>
-          <img src="image/notif.png" alt="Like" class="likeTop" />
-        </div>
-
-        <!-- Stories -->
-        <div class="storiesContainer">
-          <div class="first">
-            <div class="profile">
-              <img src="image/1.jpg" alt="saber" class="first_user" />
-            </div>
-            <h4 class="name">Saber</h4>
-          </div>
-
-          <div class="second">
-            <div class="profile2">
-              <img src="image/2.jpg" alt="kit" class="second_user" />
-            </div>
-            <h4 class="name">Neko</h4>
-          </div>
-
-          <div class="third">
-            <div class="profile3">
-              <img src="image/3.jpg" alt="Lov" class="third_user" />
-            </div>
-            <h4 class="name">Lov</h4>
-          </div>
-
-          <div class="fourth">
-            <div class="profile4">
-              <img src="image/4.jpg" alt="Ayaya" class="fourth_user" />
-            </div>
-            <h4 class="name">Ayaya</h4>
-          </div>
-
-          <div class="fifth">
-            <div class="profile5">
-              <img src="image/5.jpg" alt="Iseikai_Joucho" class="fifth_user" />
-            </div>
-            <h4 class="name">Iseikai_Joucho</h4>
-          </div>
-
-          <div class="sixth">
-            <div class="profile6">
-              <img src="image/9.jpg" alt="Shojo" class="sixth_user" />
-            </div>
-            <h4 class="name">Shojo</h4>
-          </div>
-
-          <div class="seveth">
-            <div class="profile7">
-              <img src="image/7.jpg" alt="Keqing_queen" class="seventh_user" />
-            </div>
-            <h4 class="name">Keqing_queen</h4>
-          </div>
-
-          <div class="eighth">
-            <div class="profile8">
-              <img
-                src="image/8.jpg"
-                alt="Me_after_final_fr"
-                class="eighth_user"
-              />
-            </div>
-            <h4 class="name">Drinking_Co</h4>
-          </div>
-        </div>
-
-        <!-- Posts -->
-        <div class="posts">
-          <div class="firstPost">
-            <div class="top">
-              <div class="postTopContainer">
-                <div class="postImg">
-                  <div class="postImageBg"></div>
-                  <img
-                    src="image/joe.jpg"
-                    alt="Iseikai_Joucho"
-                    class="postImage"
-                  />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"
+            rel="iconstylesheet"
+        />
+        <link rel="icon" href="image/logo.png" />
+        <title>Instagram</title>
+    </head>
+    <body>
+        <div class="pageFlex">
+            <!-- Dashboard -->
+            <div class="dashboardContainer">
+                <div class="logoContainer">
+                    <div class="logoBg">
+                        <img
+                            src="image/logo.png"
+                            alt="Instagram_logo"
+                            class="logo"
+                        />
+                    </div>
+                    <div class="logoTopImg">
+                        <img
+                            src="image/logoText.png"
+                            alt="Ig_logo"
+                            class="logoText"
+                        />
+                    </div>
                 </div>
-                <h4 class="userName">Joe</h4>
-                <div class="dot"></div>
-                <h5 class="postTime">3d</h5>
-                <img
-                  src="image/more.png"
-                  alt="more_options"
-                  class="postExpand"
-                />
-              </div>
-            </div>
-            <div class="content">
-              <img src="image/donald.jpg" alt="A photo" class="post" />
-            </div>
-            <div class="bottom">
-              <div class="firstLine">
-                <div class="interactions">
-                  <img src="image/notif.png" alt="Like" class="like" />
-                  <img src="image/comment.png" alt="Comment" class="comment" />
-                  <img src="image/message.png" alt="Share" class="share" />
-                  <img src="image/save.png" alt="Save" class="save" />
+
+                <div class="home">
+                    <div class="homeContainer">
+                        <img
+                            src="image/home.png"
+                            alt="home_icon"
+                            class="dashIcon"
+                        />
+                        <p class="dashText">Home</p>
+                    </div>
                 </div>
-              </div>
-              <div class="secondLine">
-                <div class="viewComment">
-                  <h5 class="view">View one comment from Donald</h5>
-                  <h5 class="add">Add a comment...</h5>
+
+                <div class="search">
+                    <div class="searchContainer">
+                        <img
+                            src="image/search.png"
+                            alt="search_icon"
+                            class="dashIcon"
+                        />
+                        <p class="dashText">Search</p>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="secondPost">
-            <div class="top">
-              <div class="postTopContainer">
-                <div class="postImg">
-                  <div class="postImageBgRead"></div>
-                  <img
-                    src="image/penix.jpg"
-                    alt="Michael Penix"
-                    class="postImage"
-                  />
+                <div class="explore">
+                    <div class="exploreContainer">
+                        <img
+                            src="image/nav.png"
+                            alt="explore_icon"
+                            class="dashIcon"
+                        />
+                        <p class="dashText">Explore</p>
+                    </div>
                 </div>
-                <h4 class="userName">the_Goat</h4>
-                <div class="dot"></div>
-                <h5 class="postTime">2m</h5>
-                <img
-                  src="image/more.png"
-                  alt="more_options"
-                  class="postExpand"
-                />
-              </div>
-            </div>
-            <div class="content">
-              <img src="image/rome.jpg" alt="pretty photo" class="post" />
-            </div>
-            <div class="bottom">
-              <div class="firstLine">
-                <div class="interactions">
-                  <img src="image/notif.png" alt="Like" class="like" />
-                  <img src="image/comment.png" alt="Comment" class="comment" />
-                  <img src="image/message.png" alt="Share" class="share" />
-                  <img src="image/save.png" alt="Save" class="save" />
+
+                <div class="reels">
+                    <div class="reelsContainer">
+                        <img
+                            src="image/reel.png"
+                            alt="reels_icon"
+                            class="dashIcon"
+                        />
+                        <p class="dashText">Reels</p>
+                    </div>
                 </div>
-              </div>
-              <div class="secondLine">
-                <div class="viewComment">
-                  <h5 class="view">21,053 Likes</h5>
-                  <h5 class="add">Add a comment...</h5>
+
+                <div class="messages">
+                    <div class="messagesContainer">
+                        <img
+                            src="image/message.png"
+                            alt="messages_icon"
+                            class="dashIcon"
+                        />
+                        <p class="dashText">Messages</p>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="thirdPost">
-            <div class="top">
-              <div class="postTopContainer">
-                <div class="postImg">
-                  <div class="postImageBg"></div>
-                  <img src="image/15.jpg" alt="Keqing_queen" class="postImage" />
+                <div class="notif">
+                    <div class="notifContainer">
+                        <img
+                            src="image/notif.png"
+                            alt="notif_icon"
+                            class="dashIcon"
+                        />
+                        <p class="dashText">Notifications</p>
+                    </div>
                 </div>
-                <h4 class="userName">Keqing_queen</h4>
-                <div class="dot"></div>
-                <h5 class="postTime">5h</h5>
-                <img
-                  src="image/more.png"
-                  alt="more_options"
-                  class="postExpand"
-                />
-              </div>
-            </div>
-            <div class="content">
-              <img src="image/17.jpg" alt="pretty photo" class="post" />
-            </div>
-            <div class="bottom">
-              <div class="firstLine">
-                <div class="interactions">
-                  <img src="image/notif.png" alt="Like" class="like" />
-                  <img src="image/comment.png" alt="Comment" class="comment" />
-                  <img src="image/message.png" alt="Share" class="share" />
-                  <img src="image/save.png" alt="Save" class="save" />
+
+                <div class="create">
+                    <div class="createContainer">
+                        <img
+                            src="image/plus.png"
+                            alt="create_icon"
+                            class="dashIcon"
+                        />
+                        <p class="dashText">Create</p>
+                    </div>
                 </div>
-              </div>
-              <div class="secondLine">
-                <div class="viewComment">
-                  <h5 class="view">608,583 Views</h5>
-                  <h5 class="add">Add a comment...</h5>
+
+                <div class="dProfile">
+                    <div class="dProfileContainer">
+                        <img
+                            src="image/profile.jpg"
+                            alt="mainProfile_icon"
+                            class="dProfilePic"
+                        />
+                        <p class="dashText">Profile</p>
+                    </div>
                 </div>
-              </div>
+
+                <div class="spacer"></div>
+
+                <div class="threads">
+                    <div class="threadsContainer">
+                        <img
+                            src="image/at.png"
+                            alt="threads_icon"
+                            class="dashIcon"
+                        />
+                        <p class="dashText">Threads</p>
+                    </div>
+                </div>
+
+                <div class="more">
+                    <div class="moreContainer">
+                        <div class="lines">
+                            <div class="moreLine"></div>
+                            <div class="moreLine"></div>
+                            <div class="moreLine"></div>
+                        </div>
+                        <p class="dashText">More</p>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
 
-        <!-- Mobile Layout Bottom -->
-        <div class="bottomDash">
-          <img src="image/home.png" alt="home_icon" class="homeIcon" />
-          <img src="image/nav.png" alt="explore_icon" class="exploreIcon" />
-          <img src="image/reel.png" alt="reels_icon" class="reelsIcon" />
-          <img src="image/plus.png" alt="create_icon" class="createIcon" />
-          <img
-            src="image/message.png"
-            alt="messages_icon"
-            class="messagesIcon"
-          />
-          <img
-            src="image/profile.jpg"
-            alt="mainProfile_icon"
-            class="dProfilePic"
-          />
-        </div>
-      </div>
+            <!-- Main -->
+            <div class="mainFlexContainer">
+                <!-- mobile layout-->
+                <div class="mobileTop">
+                    <img
+                        src="image/logoText.png"
+                        alt="Ig_logo"
+                        class="logoText"
+                    />
+                    <div class="spacer"></div>
+                    <form>
+                        <div class="searchBarContainer">
+                            <img
+                                src="image/search.png"
+                                alt="search"
+                                class="seaIcon"
+                            />
+                            <input
+                                type="search"
+                                class="searchInput"
+                                placeholder="Search"
+                            />
+                        </div>
+                    </form>
+                    <img src="image/notif.png" alt="Like" class="likeTop" />
+                </div>
 
-      <!-- Suggests -->
+                <!-- Stories -->
+                <div class="storiesContainer">
+                    <div class="first">
+                        <div class="profile">
+                            <img
+                                src="image/1.jpg"
+                                alt="saber"
+                                class="first_user"
+                            />
+                        </div>
+                        <h4 class="name">Saber</h4>
+                    </div>
 
-      <div class="suggestionContainer">
-        <div class="suggestTop">
-          <div class="sugProfilePic">
-            <img src="image/profile.jpg" alt="" class="mainProfile" />
-          </div>
-          <div class="suggestName">
-            <h4 class="accountName">Yae Miko</h4>
-            <h5 class="shortName">Miko</h5>
-          </div>
-          <div class="spacer"></div>
-          <div class="switchAccount">
-            <p class="switchText">Switch</p>
-          </div>
-        </div>
+                    <div class="second">
+                        <div class="profile2">
+                            <img
+                                src="image/2.jpg"
+                                alt="kit"
+                                class="second_user"
+                            />
+                        </div>
+                        <h4 class="name">Neko</h4>
+                    </div>
 
-        <div class="suggested">
-          <h3 class="suggestText">Suggested for you</h3>
-          <div class="spacer"></div>
-          <h3 class="seeText">See All</h3>
-        </div>
+                    <div class="third">
+                        <div class="profile3">
+                            <img
+                                src="image/3.jpg"
+                                alt="Lov"
+                                class="third_user"
+                            />
+                        </div>
+                        <h4 class="name">Lov</h4>
+                    </div>
 
-        <div class="suggestTop sugFirst">
-          <div class="sugProfilePic">
-            <img src="image/10.jpg" alt="user1" class="mainProfile" />
-          </div>
-          <div class="suggestName">
-            <h4 class="accountName">Ano_Kiko</h4>
-            <h5 class="shortName">Suggested for you</h5>
-          </div>
-          <div class="spacer"></div>
-          <div class="switchAccount">
-            <p class="switchText">Follow</p>
-          </div>
-        </div>
+                    <div class="fourth">
+                        <div class="profile4">
+                            <img
+                                src="image/4.jpg"
+                                alt="Ayaya"
+                                class="fourth_user"
+                            />
+                        </div>
+                        <h4 class="name">Ayaya</h4>
+                    </div>
 
-        <div class="suggestTop sugSecond">
-          <div class="sugProfilePic">
-            <img src="image/6.jpg" alt="user2" class="mainProfile" />
-          </div>
-          <div class="suggestName">
-            <h4 class="accountName">ShenHe</h4>
-            <h5 class="shortName">Followed by Keqing_queen</h5>
-          </div>
-          <div class="spacer"></div>
-          <div class="switchAccount">
-            <p class="switchText">Follow</p>
-          </div>
-        </div>
+                    <div class="fifth">
+                        <div class="profile5">
+                            <img
+                                src="image/5.jpg"
+                                alt="Iseikai_Joucho"
+                                class="fifth_user"
+                            />
+                        </div>
+                        <h4 class="name">Iseikai_Joucho</h4>
+                    </div>
 
-        <div class="suggestTop sugThird">
-          <div class="sugProfilePic">
-            <img src="image/12.jpg" alt="user3" class="mainProfile" />
-          </div>
-          <div class="suggestName">
-            <h4 class="accountName">Sakura1xxYah</h4>
-            <h5 class="shortName">Suggested for you</h5>
-          </div>
-          <div class="spacer"></div>
-          <div class="switchAccount">
-            <p class="switchText">Follow</p>
-          </div>
-        </div>
+                    <div class="sixth">
+                        <div class="profile6">
+                            <img
+                                src="image/9.jpg"
+                                alt="Shojo"
+                                class="sixth_user"
+                            />
+                        </div>
+                        <h4 class="name">Shojo</h4>
+                    </div>
 
-        <div class="suggestTop sugForth">
-          <div class="sugProfilePic">
-            <img src="image/13.jpg" alt="user4" class="mainProfile" />
-          </div>
-          <div class="suggestName">
-            <h4 class="accountName">Blue_Archive</h4>
-            <h5 class="shortName">New to Instagram</h5>
-          </div>
-          <div class="spacer"></div>
-          <div class="switchAccount">
-            <p class="switchText">Follow</p>
-          </div>
-        </div>
+                    <div class="seveth">
+                        <div class="profile7">
+                            <img
+                                src="image/7.jpg"
+                                alt="Keqing_queen"
+                                class="seventh_user"
+                            />
+                        </div>
+                        <h4 class="name">Keqing_queen</h4>
+                    </div>
 
-        <div class="suggestTop sugFifth">
-          <div class="sugProfilePic">
-            <img src="image/14.jpg" alt="user5" class="mainProfile" />
-          </div>
-          <div class="suggestName">
-            <h4 class="accountName">YUKIN@_&gt~~&lt;</h4>
-            <h5 class="shortName">Suggested for you</h5>
-          </div>
-          <div class="spacer"></div>
-          <div class="switchAccount">
-            <p class="switchText">Follow</p>
-          </div>
-        </div>
+                    <div class="eighth">
+                        <div class="profile8">
+                            <img
+                                src="image/8.jpg"
+                                alt="Me_after_final_fr"
+                                class="eighth_user"
+                            />
+                        </div>
+                        <h4 class="name">Drinking_Co</h4>
+                    </div>
+                </div>
 
-        <div class="link">
-          <h5 class="linkText">
-            About &middot; Help &middot; Press &middot; API &middot; Jobs
-            &middot; Privacy &middot; Terms &middot;<br />
-            Locations &middot; Language &middot; Meta Verified
-          </h5>
+                <!-- Posts -->
+                <div class="posts">
+                    <div class="firstPost">
+                        <div class="top">
+                            <div class="postTopContainer">
+                                <div class="postImg">
+                                    <div class="postImageBg"></div>
+                                    <img
+                                        src="image/joe.jpg"
+                                        alt="Iseikai_Joucho"
+                                        class="postImage"
+                                    />
+                                </div>
+                                <h4 class="userName">Joe</h4>
+                                <div class="dot"></div>
+                                <h5 class="postTime">3d</h5>
+                                <img
+                                    src="image/more.png"
+                                    alt="more_options"
+                                    class="postExpand"
+                                />
+                            </div>
+                        </div>
+                        <div class="content">
+                            <img
+                                src="image/craft.jpg"
+                                alt="A photo"
+                                class="post"
+                            />
+                        </div>
+                        <div class="bottom">
+                            <div class="firstLine">
+                                <div class="interactions">
+                                    <img
+                                        src="image/notif.png"
+                                        alt="Like"
+                                        class="like"
+                                    />
+                                    <img
+                                        src="image/comment.png"
+                                        alt="Comment"
+                                        class="comment"
+                                    />
+                                    <img
+                                        src="image/message.png"
+                                        alt="Share"
+                                        class="share"
+                                    />
+                                    <img
+                                        src="image/save.png"
+                                        alt="Save"
+                                        class="save"
+                                    />
+                                </div>
+                            </div>
+                            <div class="secondLine">
+                                <div class="viewComment">
+                                    <h5 class="view">
+                                        View one comment from Donald
+                                    </h5>
+                                    <h5 class="add">Add a comment...</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="secondPost">
+                        <div class="top">
+                            <div class="postTopContainer">
+                                <div class="postImg">
+                                    <div class="postImageBgRead"></div>
+                                    <img
+                                        src="image/penix.jpg"
+                                        alt="Michael Penix"
+                                        class="postImage"
+                                    />
+                                </div>
+                                <h4 class="userName">the_Goat</h4>
+                                <div class="dot"></div>
+                                <h5 class="postTime">2m</h5>
+                                <img
+                                    src="image/more.png"
+                                    alt="more_options"
+                                    class="postExpand"
+                                />
+                            </div>
+                        </div>
+                        <div class="content">
+                            <img
+                                src="image/rome.jpg"
+                                alt="pretty photo"
+                                class="post"
+                            />
+                        </div>
+                        <div class="bottom">
+                            <div class="firstLine">
+                                <div class="interactions">
+                                    <img
+                                        src="image/notif.png"
+                                        alt="Like"
+                                        class="like"
+                                    />
+                                    <img
+                                        src="image/comment.png"
+                                        alt="Comment"
+                                        class="comment"
+                                    />
+                                    <img
+                                        src="image/message.png"
+                                        alt="Share"
+                                        class="share"
+                                    />
+                                    <img
+                                        src="image/save.png"
+                                        alt="Save"
+                                        class="save"
+                                    />
+                                </div>
+                            </div>
+                            <div class="secondLine">
+                                <div class="viewComment">
+                                    <h5 class="view">21,053 Likes</h5>
+                                    <h5 class="add">Add a comment...</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="thirdPost">
+                        <div class="top">
+                            <div class="postTopContainer">
+                                <div class="postImg">
+                                    <div class="postImageBg"></div>
+                                    <img
+                                        src="image/15.jpg"
+                                        alt="Keqing_queen"
+                                        class="postImage"
+                                    />
+                                </div>
+                                <h4 class="userName">Keqing_queen</h4>
+                                <div class="dot"></div>
+                                <h5 class="postTime">5h</h5>
+                                <img
+                                    src="image/more.png"
+                                    alt="more_options"
+                                    class="postExpand"
+                                />
+                            </div>
+                        </div>
+                        <div class="content">
+                            <img
+                                src="image/17.jpg"
+                                alt="pretty photo"
+                                class="post"
+                            />
+                        </div>
+                        <div class="bottom">
+                            <div class="firstLine">
+                                <div class="interactions">
+                                    <img
+                                        src="image/notif.png"
+                                        alt="Like"
+                                        class="like"
+                                    />
+                                    <img
+                                        src="image/comment.png"
+                                        alt="Comment"
+                                        class="comment"
+                                    />
+                                    <img
+                                        src="image/message.png"
+                                        alt="Share"
+                                        class="share"
+                                    />
+                                    <img
+                                        src="image/save.png"
+                                        alt="Save"
+                                        class="save"
+                                    />
+                                </div>
+                            </div>
+                            <div class="secondLine">
+                                <div class="viewComment">
+                                    <h5 class="view">608,583 Views</h5>
+                                    <h5 class="add">Add a comment...</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mobile Layout Bottom -->
+                <div class="bottomDash">
+                    <img
+                        src="image/home.png"
+                        alt="home_icon"
+                        class="dashIcon"
+                    />
+                    <img
+                        src="image/nav.png"
+                        alt="explore_icon"
+                        class="dashIcon"
+                    />
+                    <img
+                        src="image/reel.png"
+                        alt="reels_icon"
+                        class="dashIcon"
+                    />
+                    <img
+                        src="image/plus.png"
+                        alt="create_icon"
+                        class="dashIcon"
+                    />
+                    <img
+                        src="image/message.png"
+                        alt="messages_icon"
+                        class="dashIcon"
+                    />
+                    <img
+                        src="image/profile.jpg"
+                        alt="mainProfile_icon"
+                        class="dProfilePic"
+                    />
+                </div>
+            </div>
+
+            <!-- Suggests -->
+
+            <div class="suggestionContainer">
+                <div class="suggestTop">
+                    <div class="sugProfilePic">
+                        <img
+                            src="image/profile.jpg"
+                            alt=""
+                            class="mainProfile"
+                        />
+                    </div>
+                    <div class="suggestName">
+                        <h4 class="accountName">Yae Miko</h4>
+                        <h5 class="shortName">Miko</h5>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="switchAccount">
+                        <p class="switchText">Switch</p>
+                    </div>
+                </div>
+
+                <div class="suggested">
+                    <h3 class="suggestText">Suggested for you</h3>
+                    <div class="spacer"></div>
+                    <h3 class="seeText">See All</h3>
+                </div>
+
+                <div class="suggestTop sugFirst">
+                    <div class="sugProfilePic">
+                        <img
+                            src="image/10.jpg"
+                            alt="user1"
+                            class="mainProfile"
+                        />
+                    </div>
+                    <div class="suggestName">
+                        <h4 class="accountName">Ano_Kiko</h4>
+                        <h5 class="shortName">Suggested for you</h5>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="switchAccount">
+                        <p class="switchText">Follow</p>
+                    </div>
+                </div>
+
+                <div class="suggestTop sugSecond">
+                    <div class="sugProfilePic">
+                        <img
+                            src="image/6.jpg"
+                            alt="user2"
+                            class="mainProfile"
+                        />
+                    </div>
+                    <div class="suggestName">
+                        <h4 class="accountName">ShenHe</h4>
+                        <h5 class="shortName">Followed by Keqing_queen</h5>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="switchAccount">
+                        <p class="switchText">Follow</p>
+                    </div>
+                </div>
+
+                <div class="suggestTop sugThird">
+                    <div class="sugProfilePic">
+                        <img
+                            src="image/12.jpg"
+                            alt="user3"
+                            class="mainProfile"
+                        />
+                    </div>
+                    <div class="suggestName">
+                        <h4 class="accountName">Sakura1xxYah</h4>
+                        <h5 class="shortName">Suggested for you</h5>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="switchAccount">
+                        <p class="switchText">Follow</p>
+                    </div>
+                </div>
+
+                <div class="suggestTop sugForth">
+                    <div class="sugProfilePic">
+                        <img
+                            src="image/13.jpg"
+                            alt="user4"
+                            class="mainProfile"
+                        />
+                    </div>
+                    <div class="suggestName">
+                        <h4 class="accountName">Blue_Archive</h4>
+                        <h5 class="shortName">New to Instagram</h5>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="switchAccount">
+                        <p class="switchText">Follow</p>
+                    </div>
+                </div>
+
+                <div class="suggestTop sugFifth">
+                    <div class="sugProfilePic">
+                        <img
+                            src="image/14.jpg"
+                            alt="user5"
+                            class="mainProfile"
+                        />
+                    </div>
+                    <div class="suggestName">
+                        <h4 class="accountName">YUKIN@_&gt~~&lt;</h4>
+                        <h5 class="shortName">Suggested for you</h5>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="switchAccount">
+                        <p class="switchText">Follow</p>
+                    </div>
+                </div>
+
+                <div class="link">
+                    <h5 class="linkText">
+                        About &middot; Help &middot; Press &middot; API &middot;
+                        Jobs &middot; Privacy &middot; Terms &middot;<br />
+                        Locations &middot; Language &middot; Meta Verified
+                    </h5>
+                </div>
+                <div class="copyright">
+                    <h5 class="copyText">
+                        &copy; 2024 INSTAGRAM FROM META
+                    </h5>
+                </div>
+            </div>
         </div>
-        <div class="copyright">
-          <h5 class="copyText">&copy; 2024 INSTAGRAM FROM META</h5>
-        </div>
-      </div>
-    </div>
-  </body>
+    </body>
 </html>
